@@ -54,7 +54,7 @@ import React, { useCallback } from 'react'
 import { ApesterEvent } from 'apester-react-widgets';
 
 interface MessageValues {
-    type: 'picked_answer' | 'refresh_companion_ad'
+    type: 'picked_answer' | 'refresh_companion_ad' | 'finished_interaction' | 'last_slide_reached' | 'fullscreen_on' | 'fullscreen_off' | 'apester_resize_unit'
     data: {
         answerId: string
         answerText: string
