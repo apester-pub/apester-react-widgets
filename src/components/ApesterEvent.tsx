@@ -12,6 +12,8 @@ export interface MessageValues {
         interactionTitle: string
         slideId: string
         slideTitle: string
+        height: number
+        width: number
     }
 }
 
