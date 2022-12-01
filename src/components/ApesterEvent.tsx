@@ -3,7 +3,7 @@ import useScript from '../hooks/useScript';
 import { WEB_SDK_LEGACY_URL } from '../config';
 
 export interface MessageValues {
-    type: 'picked_answer' | 'refresh_companion_ad' | 'finished_interaction' | 'last_slide_reached' | 'fullscreen_on' | 'fullscreen_off' | 'apester_resize_unit'
+    type: 'picked_answer' | 'refresh_companion_ad' | 'finished_interaction' | 'last_slide_reached' | 'fullscreen_on' | 'fullscreen_off' | 'apester_resize_unit' | 'apester_interaction_loaded' | 'slide_loaded'
     data: {
         answerId: string
         answerText: string
@@ -12,6 +12,7 @@ export interface MessageValues {
         interactionTitle: string
         slideId: string
         slideTitle: string
+        slidePosition: number
         height: number
         width: number
     }
