@@ -15,6 +15,7 @@ export interface MessageValues {
         slidePosition: number
         height: number
         width: number
+        isCorrectAnswer: boolean
     }
 }
 
