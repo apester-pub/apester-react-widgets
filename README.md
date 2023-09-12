@@ -64,6 +64,7 @@ interface MessageValues {
         slideId: string
         slideTitle: string
         slidePosition: number
+        isCorrectAnswer: boolean
     }
 }
 
